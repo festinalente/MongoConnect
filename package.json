@@ -1,6 +1,24 @@
 {
   "name": "MongoConnect",
   "version": "1.0.0",
-  "description": "A project specific DB connection script that pools connections.",
+  "author": "Tomás Swift-Metcalfe",
+  "license": "GPL-v3",
+  "description": "A little module for handling a DB connection pool",
   "main": "mongoConnect.js",
+  "dependencies": {
+    "mongodb": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/festinalente/MongoConnect.git"
+  },
+  "keywords": [
+    "pool",
+    "connections",
+    "mongodb"
+  ],
+  "bugs": {
+    "url": "https://github.com/festinalente/MongoConnect/issues"
+  },
+  "homepage": "https://github.com/festinalente/MongoConnect#readme"
 }
