@@ -11,8 +11,15 @@ The required variables in .env are:
 mongopass=<your_mongoDB_pass>
 dbusername=<your_db_username>
 dbname=<DB_you_wish_to_use>
-mongoDBUrl=<`mongodb+srv://${dbusername}:${mongopass}@server_address/${dbname}?retryWrites=true&w=majority`>.
+mongoDBUrl=<See bellow>
 ```
 
 Replace the information in between the angle brackets with that pertaining to
 your database.  
+
+The URL to the DB needs to be added. For Mongo Atlas it will look something like this:
+
+mongoDBUrl=`mongodb+srv://${dbusername}:${mongopass}@server_address/${dbname}?retryWrites=true&w=majority`
+
+*Where server_address is your cluster's URI* Your specific connection link
+can be found on the Atlas web page.

@@ -1,6 +1,6 @@
 {
   "name": "MongoConnect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tomás Swift-Metcalfe",
   "license": "GPL-v3",
   "description": "A little module for handling a DB connection pool",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/festinalente/MongoConnect/issues"
   },
-  "homepage": "https://github.com/festinalente/MongoConnect#readme"
+  "homepage": "https://github.com/festinalente/MongoConnect#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
